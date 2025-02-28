@@ -1,0 +1,44 @@
+2024-08-18T12:59:50+0545 [-] Log opened.
+2024-08-18T12:59:50+0545 [-] SimpleFTPFactory starting on 3333
+2024-08-18T12:59:50+0545 [__main__.SimpleFTPFactory#info] Starting factory <__main__.SimpleFTPFactory object at 0x0000022ED0285210>
+2024-08-18T13:00:39+0545 [__main__.SimpleFTPFactory] FTP NEW Connection - Client IP: 127.0.0.1, Port: 54396
+2024-08-18T13:00:39+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'OPTS UTF8 ON'
+2024-08-18T13:00:45+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'USER Sulav'
+2024-08-18T13:00:49+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'PASS Testing'
+2024-08-18T13:01:05+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'USER TESt'
+2024-08-18T13:01:06+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'PASS Test'
+2024-08-18T13:01:13+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'USER Ronaldo'
+2024-08-18T13:01:15+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'PASS Cristiano'
+2024-08-18T13:01:15+0545 [SimpleFTPProtocol,0,127.0.0.1] Maximum attempts reached. Disconnecting client.
+2024-08-18T13:01:15+0545 [SimpleFTPProtocol,0,127.0.0.1] Connection lost
+2024-08-18T15:24:07+0545 [-] Log opened.
+2024-08-18T15:24:07+0545 [-] SimpleFTPFactory starting on 3333
+2024-08-18T15:24:07+0545 [__main__.SimpleFTPFactory#info] Starting factory <__main__.SimpleFTPFactory object at 0x0000028222BDCCD0>
+2025-02-26T14:27:26+0545 [-] Log opened.
+2025-02-26T14:27:26+0545 [-] SimpleFTPFactory starting on 21
+2025-02-26T14:27:26+0545 [__main__.SimpleFTPFactory#info] Starting factory <__main__.SimpleFTPFactory object at 0x000001F0C31FF7D0>
+2025-02-26T15:21:24+0545 [-] Log opened.
+2025-02-26T15:21:24+0545 [-] SimpleFTPFactory starting on 2222
+2025-02-26T15:21:24+0545 [__main__.SimpleFTPFactory#info] Starting factory <__main__.SimpleFTPFactory object at 0x00000155A8EDFCB0>
+2025-02-26T15:21:35+0545 [-] Log opened.
+2025-02-26T15:21:35+0545 [twisted.internet.defer#critical] Unhandled error in Deferred:
+2025-02-26T15:21:35+0545 [twisted.internet.defer#critical] 
+	Traceback (most recent call last):
+	  File "C:\Users\gopal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\twisted\internet\defer.py", line 155, in execute
+	    result = callable(*args, **kwargs)
+	  File "C:\Users\gopal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\twisted\internet\posixbase.py", line 366, in listenTCP
+	    p.startListening()
+	  File "C:\Users\gopal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\twisted\internet\tcp.py", line 1360, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 127.0.0.1:2222: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2025-02-26T18:49:16+0545 [-] Log opened.
+2025-02-26T18:49:16+0545 [-] SimpleFTPFactory starting on 2222
+2025-02-26T18:49:16+0545 [__main__.SimpleFTPFactory#info] Starting factory <__main__.SimpleFTPFactory object at 0x000001CD868A6150>
+2025-02-27T00:54:36+0545 [-] Log opened.
+2025-02-27T00:54:36+0545 [-] SimpleFTPFactory starting on 2222
+2025-02-27T00:54:36+0545 [__main__.SimpleFTPFactory#info] Starting factory <__main__.SimpleFTPFactory object at 0x0000020479D3FC20>
+2025-02-27T01:00:01+0545 [twisted.internet.base#info] Received SIGINT, shutting down.
+2025-02-27T01:00:01+0545 [__main__.SimpleFTPFactory] (TCP Port 2222 Closed)
+2025-02-27T01:00:01+0545 [__main__.SimpleFTPFactory#info] Stopping factory <__main__.SimpleFTPFactory object at 0x0000020479D3FC20>
+2025-02-27T01:00:01+0545 [twisted.internet.base#info] Main loop terminated.
